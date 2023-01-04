@@ -1,0 +1,308 @@
+body{
+	height: 100%;
+	width: 100%;
+	font-family: monospace;
+}
+.navbar{
+	height: 12vh;
+	padding: 10px;
+	background: white;
+	box-shadow: 3px 6px 6px 3px #e6e6e6;
+}
+.navbar-nav li{
+	list-style: none;
+	margin: 10px;
+	margin-top: 20px;
+}
+.navbar-header img{
+	margin-top: -10px;
+	margin-left: 20px;
+}
+.menu{
+	margin-left: 150px;
+}
+.navbar li a{
+	color: #4d4d4d;
+	font-size: 12pt;
+	text-decoration: none;
+	margin-left: 80px;
+	padding: 3px;
+}
+.menu a:hover{
+	border-bottom: 2px solid red;
+}
+.view{
+	display: none;
+}
+.navbar .active{
+	border-bottom: 2px solid red;
+}
+
+.category{
+	margin-top: 14vh;
+	width: 100%;
+}
+
+.products{
+	margin-top: 15vh;
+}
+.products h1:after{
+	width: 120px;
+	height: 2px;
+	content: "";
+	display: block;
+	background: red;
+	margin-bottom: 5vh;
+}
+.row h4{
+	font-weight: bold;
+	color: red;
+	margin-bottom:5vh;
+}
+.products span{
+	color: gold;
+}
+.products img{
+	margin-bottom: 10px;
+	opacity: 0.6;
+}
+.products img:hover{
+	opacity: 1.0;
+}
+
+.trends td img{
+	height: 90px;
+	width: 90px;
+}
+.trends td{
+	padding-right: 20px;
+}
+.trends h3:after{
+	width: 50px;
+	height: 2px;
+	content: "";
+	display: block;
+	background: red;
+	margin-top: 2px;
+	margin-bottom: 5vh;
+}
+.trends table{
+	margin-top: 20px;
+}
+.trends span{
+	color: gold;
+	font-size: 12px;
+}
+
+.info{
+	margin-top: 15vh;
+	width: 90%;
+}
+.info span{
+	font-size: 30pt;
+	color: red;
+}
+.info td{
+	padding-left: 20px;
+}
+.info h4{
+	font-weight: bold;
+}
+
+.photo{
+	width: 100%;
+	margin-top: 15vh;
+	margin-bottom: 15vh;
+}
+.col-sm-2{
+	padding: 0px;
+	height: 250px;
+}
+.col-sm-2 img{
+	height: 100%;
+}
+
+
+
+.foot .col-sm-4 li img{
+	height: 40px;
+	width: 40px;
+}
+.foot .col-sm-4 li{
+	display: inline-block;
+	list-style: none;
+}
+.foot .col-sm-4{
+	margin-top: 10vh;
+}
+.foot .col-sm-2{
+	margin-top: 10vh;
+}
+.foot .col-sm-2 h4{
+	font-weight: bold;
+}
+.foot .col-sm-2 a{
+	text-decoration: none;
+	margin-top: 20px;
+	color: #262626;
+}
+.foot .col-sm-4 h4{
+	font-weight: bold;
+}
+.foot .news li{
+	border: 1px solid #e6e6e6;
+	border-radius: 30px;
+	padding: 1px;
+	padding-left: 30px;
+}
+.foot .news input{
+	border: none;
+	padding: 3px;
+}
+.foot .news button{
+	border: none;
+	border-radius: 30px;
+	background-color: red;
+	color: white;
+	padding: 10px 30px;
+}
+.foot .news span{
+	margin-top: 20px;
+	font-size: 17px;
+	background: #e6e6e6;
+	padding:10px 10px 10px 10px;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%; 
+}
+.foot:after{
+	width: 100%;
+	height: 2px;
+	content: "";
+	display: block;
+	background: #e6e6e6;
+	margin-bottom: 3vh;
+	margin-top: 3vh;
+}
+
+.contact{
+	margin-top: 20vh;
+}
+.contact h3:after{
+	width: 70px;
+	height: 2px;
+	content: "";
+	display: block;
+	background: red;
+	margin-bottom: 5vh;
+}
+.contact p{
+	font-size: 17px;
+	width: 400px;
+	margin-top: 5vh;
+}
+.contact span{
+	color: red;
+}
+
+.contact li{
+	list-style: none;
+	margin-top: 5vh;
+}
+.contact input{
+	border: 2px solid #b3b3b3;
+	padding: 10px 30px;
+	width: 80%;
+	border-radius: 10px;
+	font-size: 16px;
+}
+.contact textarea{
+	border: 2px solid #b3b3b3;
+	padding: 10px 30px;
+	width: 80%;
+	border-radius: 10px;
+	font-size: 16px;
+}
+.contact button{
+	background: red;
+	color: white;
+	font-size: 16px;
+	border-radius: 10px;
+	border: none;
+	padding: 10px 30px;
+	margin-top: 5px;
+}
+
+.confirm{
+	margin-top: 15vh;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.confirm h3{
+	font-weight: bold;
+}
+.bill{
+	padding: 20px;
+	padding-bottom: 40px;
+	margin-top: 10px;
+	border-radius: 5px;
+	box-shadow: 3px 6px 6px 3px #e6e6e6;
+}
+.bill h4{
+	font-weight: bold;
+}
+.bill input{
+	border: none;
+	border-bottom: 2px solid red;
+	padding: 5px;
+	margin-top: 10px;
+}
+.bill input[name=name]{
+	width: 98.5%;
+}
+.bill input[name=cardnum]{
+	width: 50%;
+}
+.bill input[name=exp]{
+	width: 23%;
+}
+.bill input[name=cvv]{
+	width: 23%;
+}
+
+.bill input[name=sa]{
+	width: 48.5%;
+}
+.bill input[name=ct]{
+	width: 48.5%;
+}
+.bill input[name=st]{
+	width: 48.5%;
+}
+.bill input[name=zp]{
+	width: 48.5%;
+}
+
+.confirm button{
+	background: red;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 8px 20px;
+	border-radius: 5px;
+	border: none;
+	margin-top: 20px;
+	transition: 0.4s ease-in-out;
+}
+.confirm button:hover{
+	background: #333333;
+	transition: 0.4s ease-in-out;
+}
+.fl{
+	float: right;
+}
+.fl b{
+	font-size: 18px;
+	font-weight: bold;
+}

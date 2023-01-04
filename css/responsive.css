@@ -1,0 +1,148 @@
+@media screen and (max-width: 800px){
+	.set{
+		display: none;
+	}
+	.view{
+		display: unset;
+	}
+	.navbar-header img{
+		margin-top: -5px;
+	}
+	.open_nav{
+		float: right;
+		margin-top: -10%;
+	}
+	.open_nav button{
+		background:none;
+		border: none;
+	}
+	.open_nav span{
+		font-size: 25px;
+		color: red;
+	}
+	.overlay a {
+		font-size: 20px;
+	}
+	.closebtn {
+	    font-size: 40px !important;
+	    top: 15px;
+	    right: 35px;
+	}
+	.overlay {
+	    height: 100%;
+	    width: 0;
+	    position: fixed;
+	    z-index: 1;
+	    top: 0;
+	    left: 0;
+	    background-color: rgb(255,255,255);
+	    background-color: rgba(255,255,255, 0.9);
+	    overflow-x: hidden;
+	    transition: 0.5s;
+	}
+
+	.overlay-content {
+	    position: relative;
+	    top: 15%;
+	    width: 100%;
+	    text-align: center;
+	    margin-top: 30px;
+	}
+	.list li{
+		list-style: none;
+	}
+	.list a{
+		color: black; 
+		margin-top: 10%;
+		font-weight: bold;
+		width: 50%;
+	}
+	.overlay a {
+	    padding: 8px;
+	    text-decoration: none;
+	    font-size: 16px;
+	    display: block;
+	    transition: 0.3s;
+	}
+
+	.closebtn {
+	    position: absolute;
+	    top: 20px;
+	    right: 45px;
+	    font-size: 60px !important;
+	}
+
+	.products{
+		margin-top: 5vh;
+	}
+	.products h1{
+		font-size: 25px;
+	}
+	.products h1:after{
+		width: 70px;
+	}
+	.products img{
+		opacity: 0.8;
+	}
+	.trends h3{
+		margin-top: 15%;
+	}
+
+	.info{
+		width: 100%;
+		margin-top: 10%;
+	}
+	.info span{
+		font-size: 20px;
+	}
+	.photo{
+		width: 100%;
+		margin-top: 10%;
+	}
+	.col-sm-2 img{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.foot .col-sm-4{
+		margin-top: unset;
+	}
+	.foot .col-sm-2{
+		margin-top: unset;
+	}
+	.foot .news li{
+		padding-left: 10px;
+	}
+	.foot .news button{
+		padding: 5px 15px;
+	}
+	.contact p{
+		font-size: 16px;
+		width: unset;
+		margin-top: 5vh;
+	}
+	.contact input{
+		width: 100%;
+	}
+	.contact textarea{
+		width: 100%;
+	}
+	.confirm{
+		width: unset;
+		margin-bottom: 20vh;
+	}
+	.bill input[name=cardnum]{
+		width: 98.5%;
+	}
+	.bill input[name=sa]{
+		width: 98.5%;
+	}
+	.bill input[name=ct]{
+		width: 98.5%;
+	}
+	.bill input[name=exp]{
+		width: 48.5%;
+	}
+	.bill input[name=cvv]{
+		width: 48.5%;
+	}
+}

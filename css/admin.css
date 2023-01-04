@@ -1,0 +1,159 @@
+body{
+	font-family: calibri;
+}
+
+.left{
+	float: left;
+	width: 20%;
+	height: 100vh;
+	position: fixed;	
+	background: #c848b9;
+	padding: 10px;
+}
+.left h1{
+	color: white;
+	font-weight: bold;
+}
+.left h1:after{
+	content: "";
+	display: block;
+	margin-top: 10px;
+	height: 1px;
+	background: lightgrey;
+	margin-bottom: 50px;
+	border-radius: 8px;
+}
+
+
+.right{
+	float: right;
+	width: 80%;
+}
+.heads{
+	background: #e6e6e6;
+	width: 100%;
+	position: fixed;
+	z-index: 99;
+	border-bottom:1px solid #e6e6e6;
+}
+.heads h2{
+	margin-left: 20px;
+	padding-top: -5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	color: #c848b9;
+}
+.nav-pills li{
+	margin-top: 20px;
+}
+.nav-pills>li>a{
+	border-radius:4px;
+	font-size: 15pt;
+	font-weight: bold;
+	color: white;
+}
+.nav-pills i{
+	font-size: 10pt;
+	color: white;
+	background: red;
+	padding:2px 5px;
+	border-radius: 5px;
+	float: right;
+}
+.nav-pills>li>a:hover{
+	background: #d9d9d9;
+	color: black;
+}
+.nav-pills>li.active>a,.nav-pills>li.active>a:focus,.nav-pills>li.active{
+	border-radius: 4px;
+	background-color:white;
+	color: #c848b9;
+}
+
+.tab-content{
+	margin-top: 100px;
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+.dash td{
+	padding: 30px;
+}
+
+
+#invest li{
+	list-style: none;
+	display: inline-block;
+}
+
+#invest input[type=text]{
+	border: 2px solid #c848b9;
+	border-radius: 5px;
+	padding: 10px;
+	width: 300px;
+}
+#invest input[type=number]{
+	border: 2px solid #c848b9;
+	border-radius: 5px;
+	padding: 10px;
+	width: 300px;
+}
+
+#invest button{
+	border-radius: 5px;
+	padding: 10px 30px;
+	background:#c848b9;
+	color: white;
+	font-size: 20px; 
+}
+
+
+#withdraw textarea{
+	border: 2px solid #c848b9;
+	border-radius: 5px;
+	padding: 10px;
+	width: 300px;
+}
+
+#withdraw select{
+	border: 2px solid #c848b9;
+	border-radius: 5px;
+	padding: 10px;
+	width: 200px;
+}
+
+#withdraw button{
+	border-radius: 5px;
+	padding: 10px 30px;
+	background:#c848b9;
+	color: white;
+	font-size: 20px; 
+}
+
+#withdraw li{
+	list-style: none;
+}
+
+.qtn textarea{
+	border: 2px solid #c848b9;
+	border-radius: 5px;
+	padding: 10px;
+	width: 300px;
+}
+.qtn:after{
+	content: "";
+	display: block;
+	height: 1px;
+	width: 300px;
+	background: #c848b9;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.qtn button{
+	border: none;
+	border-radius: 5px;
+	padding: 10px 30px;
+	background:#c848b9;
+	color: white;
+	font-size: 17px; 
+}

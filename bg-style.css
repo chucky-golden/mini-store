@@ -1,0 +1,148 @@
+.women{
+	background: url(img/category-1.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 88.9vh;
+	padding: 50px;
+}
+.women h1{
+	margin-top: 20vh;
+	font-size: 50pt;
+	width: 50px;
+}
+.women p{
+	width: 400px;
+}
+.women a{
+	text-decoration: none;
+	color: #262626;
+	font-weight: bold;
+	font-size: 16px;
+	border-bottom: 2px solid red;
+	transition: 0.4s ease-in-out;
+}
+.women a:hover{
+	margin-left: 2px;
+	transition: 0.4s ease-in-out;
+}
+.men{
+	background: url(img/category-2.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+	margin-bottom: 19px;
+	width: 310px;
+	height: 43vh;
+}
+.men h3{
+	margin-top: 10vh;
+}
+.men a{
+	text-decoration: none;
+	color: #262626;
+	font-weight: bold;
+	font-size: 16px;
+	border-bottom: 2px solid red;
+	transition: 0.4s ease-in-out;
+}
+.men a:hover{
+	margin-left: 2px;
+	transition: 0.4s ease-in-out;
+}
+
+.kid a{
+	text-decoration: none;
+	color: #262626;
+	font-weight: bold;
+	font-size: 16px;
+	border-bottom: 2px solid red;
+	transition: 0.4s ease-in-out;
+}
+.kid a:hover{
+	margin-left: 2px;
+	transition: 0.4s ease-in-out;
+}
+
+.assec a{
+	text-decoration: none;
+	color: #262626;
+	font-weight: bold;
+	font-size: 16px;
+	border-bottom: 2px solid red;
+	transition: 0.4s ease-in-out;
+}
+.assec a:hover{
+	margin-left: 2px;
+	transition: 0.4s ease-in-out;
+}
+.kid h3{
+	margin-top: 10vh;
+}
+.assec h3{
+	margin-top: 10vh;
+}
+.kid{
+	background: url(img/category-3.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+	width: 310px;
+	height: 43vh;
+}
+.assec{
+	background: url(img/category-4.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+	width: 315px;
+	height: 43vh;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+	.women{
+		background: url(img/category-1.jpg);
+		background-position: right;
+		background-size: cover;
+		height: 100%;
+		padding: 15px;
+		padding-bottom: 80px;
+	}
+	.women h1{
+		margin-top: 15vh;
+		font-size: 30px;
+		width: 50px;
+	}
+	.women p{
+		width: auto;
+	}
+
+	.men{
+		margin-top: 3%;
+		margin-bottom: 3%;
+		width: auto;
+		height: 43vh;
+	}
+	.kid{
+		margin-bottom: 3%;
+		width: auto;
+		height: 43vh;
+	}
+	.assec{
+		margin-bottom: 3%;
+		width: auto;
+		height: 43vh;
+	}
+
+
+
+
+
+
+
+}

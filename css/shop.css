@@ -1,0 +1,89 @@
+.left{
+	margin-top: 15vh;
+	width: 30%;
+	position: fixed;
+}
+.right{
+	float: right;
+	width: 70%;
+}
+.tab-content{
+	float: right;
+	margin-top: 15vh;
+}
+.cat h4{
+	font-weight: bold;
+}
+.cat h4:after{
+	content: "";
+	display: block;
+	background: red;
+	height: 2px;
+	width: 40px;
+	margin-bottom: 5vh;
+	margin-top: 1vh;
+}
+.cat li{
+	list-style: none;
+	margin-top: 3vh;
+}
+.cat a{
+	text-decoration: none;
+	font-size: 17px;
+	color: black;
+}
+.cat>li.active>a,.cat>li.active>a:focus{
+	border-bottom: 2px solid #bfbfbf;
+}
+.cat>li a:hover{
+	border-bottom: 2px solid #bfbfbf;
+}
+.cat span{
+	color: red;
+	margin-top: 10vh;
+}
+
+.right .tab-content h4{
+	font-size: 16px;
+}
+.right .tab-content input[type=number]{
+	width: 20%;
+}
+
+.right .tab-content button{
+	background: black;
+	color: white;
+	margin-top: 5px;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+
+	.left{
+		float: unset;
+		position: unset;
+	}
+	.right{
+		float: unset;
+		width: 100%;
+	}
+	.tab-content{
+		float: unset;
+		margin-top: 8vh;
+	}
+	.cat span{
+		margin-top: 5vh;
+	}
+
+}
